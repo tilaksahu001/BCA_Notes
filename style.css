@@ -39,3 +39,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/* Responsive Design */
+@media (max-width: 600px) {
+    header, footer {
+        text-align: center;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
