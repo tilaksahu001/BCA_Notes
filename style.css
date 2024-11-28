@@ -1,3 +1,11 @@
+/* Logo Styling */
+.logo img {
+    width: 80px; /* लोगो की चौड़ाई */
+    height: auto; /* ऑटो हाइट */
+    display: inline-block;
+    margin-right: 20px; /* नेविगेशन के साथ gap */
+    vertical-align: middle;
+}
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
