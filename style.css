@@ -1,201 +1,36 @@
-/* Logo Styling */
-.logo img {
-    width: 80px; /* लोगो की चौड़ाई */
-    height: auto; /* ऑटो हाइट */
-    display: inline-block;
-    margin-right: 20px; /* नेविगेशन के साथ gap */
-    vertical-align: middle;
-}
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
 
-/* Header */
-header {
-    background: #007BFF;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-header h1 {
-    margin: 0;
-}
-nav {
-    margin-top: 10px;
-}
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Main Section */
-main {
-    padding: 20px;
-    text-align: center;
-}
-main h2 {
-    color: #007BFF;
-}
-
-/* Footer */
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    nav a {
-        display: block;
-        margin: 5px 0;
-    }
-}
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+h1, h2 {
+  color: #2c3e50;
 }
 
 a {
-    text-decoration: none;
-    color: #007BFF;
+  text-decoration: none;
+  color: #3498db;
 }
 
-/* Header */
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header .logo h1 {
-    font-size: 2.5em;
-    margin: 0;
-}
-
-nav {
-    margin-top: 15px;
-}
-
-nav a {
-    margin: 0 20px;
-    font-size: 1.1em;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-/* Hero Section */
-.hero {
-    background: linear-gradient(135deg, #007BFF, #1e90ff);
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-    margin-bottom: 50px;
-}
-
-.hero h2 {
-    font-size: 3em;
-}
-
-.hero p {
-    font-size: 1.2em;
-    margin: 20px 0;
-}
-
-.hero .btn {
-    background-color: #fff;
-    color: #007BFF;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s;
-}
-
-.hero .btn:hover {
-    background-color: #007BFF;
-    color: #fff;
-}
-
-/* Notes Section */
-.notes-section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.notes-section h2 {
-    font-size: 2.5em;
-    color: #007BFF;
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.note-item {
-    display: block;
-    padding: 15px;
-    margin: 10px;
-    background-color: #fff;
-    border: 1px solid #007BFF;
-    border-radius: 5px;
-    font-size: 1.2em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+ul li {
+  margin-bottom: 5px;
 }
 
-.note-item:hover {
-    transform: scale(1.05);
-    background-color: #007BFF;
-    color: #fff;
-}
-
-/* Footer */
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .hero h2 {
-        font-size: 2.2em;
-    }
-    .hero p {
-        font-size: 1.1em;
-    }
-    .notes-section h2 {
-        font-size: 2em;
-    }
-    nav a {
-        display: block;
-        margin: 10px 0;
-    }
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #3498db;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
 }
